@@ -1,0 +1,193 @@
+/** HTML **/
+
+body {
+    background-color: #1A3F58;
+    color: #C2D1CA;
+    font-family: "Space Mono", monospace;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #F86F87;
+    font-family: "Space Mono", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #019F90;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 2;
+}
+
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #D6CC84;
+    border-width: 10px;
+    width: 5%;
+    margin: 50px auto;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+a:link {
+    color: #D6CC84;
+    text-decoration: none; 
+    margin: auto 15px;
+}
+
+a:visited {
+    color: #D6CC84;  
+}
+
+a:active {
+    color: #F86F87;  
+}
+
+a:hover {
+    color: #F86F87; 
+}
+
+/** CONTAINERS **/
+
+.top-container {
+    background-color: #019F90;
+    position: relative;
+    padding-top: 100px;
+    margin: auto auto 100px auto;
+}
+
+.middle-container {
+    margin: 0 0 100px;
+}
+
+.bottom-container {
+    background-color: #019F90;
+    position: relative;
+    padding: 20px 0 10px;
+}
+
+.profile {
+    margin: auto 20% auto 20%;
+    width: 60%
+}
+
+.skills {
+    margin: auto 10% auto 10%;
+    width: 80%
+}
+
+.contact-me {
+    margin: auto 20% auto 20%;
+    width: 60%
+}
+
+
+/** TEXT **/
+
+.copyright {
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.intro {
+    margin: auto;
+}
+
+.skill-row {
+    margin: 60px auto;
+    text-align: left;
+}
+
+.contact-message {
+    margin: 20px auto 50px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.lily-title {
+    font-family: 'Lily Script One','Courier New', Courier, monospace;
+    font-size: 4rem;
+    color: #D6CC84;
+}
+
+.lily-h2 {
+    font-family: 'Lily Script One','Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    text-decoration:underline;
+    color: #019F90;
+}
+
+.space-h2 {
+    font-weight: 700;
+}
+
+/** IMAGES **/
+
+.bottom-cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 10%;
+    top: 40px;
+}
+
+.cat-img {
+    width: 130px;
+    margin-right: 30px;
+    float: left;
+}
+
+.pfp-img {
+    width: 200px;
+    padding-top: 5px;
+}
+
+/** BUTTON **/
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Space Mono", serif;
+    color: #f7f4e1;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    background: #F86F87;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px auto;
+  }
+  
+  .btn:hover {
+    background: #019F90;
+    color: #D6CC84;
+    text-decoration: none;
+  }
