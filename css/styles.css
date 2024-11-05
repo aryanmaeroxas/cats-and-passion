@@ -24,13 +24,14 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    font-weight: bold;    
     color: #019F90;
     margin-bottom: 0;
 }
 
 h4 {
     font-size: 1.25rem;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 2;
 }
 
@@ -38,7 +39,7 @@ h4 {
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #D6CC84;
+    border-color: #F86F87;
     border-width: 10px;
     width: 5%;
     margin: 50px auto;
@@ -49,18 +50,20 @@ p {
     line-height: 2;
 }
 
+
 a:link {
-    color: #D6CC84;
+    color: #1A3F58;
     text-decoration: none; 
+    font-weight: bold;
     margin: auto 15px;
 }
 
 a:visited {
-    color: #D6CC84;  
+    color: #1A3F58;  
 }
 
 a:active {
-    color: #F86F87;  
+    color: #1A3F58;  
 }
 
 a:hover {
@@ -76,7 +79,18 @@ a:hover {
     margin: auto auto 100px auto;
 }
 
-.middle-container {
+.middle-container-intro {
+    margin: 0 0 100px;
+}
+
+.middle-container-skill {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #019F90;
+    margin: 0 0 100px;
+}
+
+.middle-container-contact {
     margin: 0 0 100px;
 }
 
@@ -101,8 +115,7 @@ a:hover {
     width: 60%
 }
 
-
-/** TEXT **/
+/** TEXT & COLOR **/
 
 .copyright {
     font-size: 0.8rem;
@@ -114,12 +127,12 @@ a:hover {
 }
 
 .skill-row {
-    margin: 60px auto;
+    margin: 20px auto;
     text-align: left;
 }
 
 .contact-message {
-    margin: 20px auto 50px;
+    margin: auto;
 }
 
 .pro {
@@ -136,9 +149,16 @@ a:hover {
     font-family: 'Lily Script One','Courier New', Courier, monospace;
     font-size: 3.5rem;
     text-decoration:underline;
-    color: #019F90;
+    color: #F86F87;
 }
 
+.bg-coral {
+    background-color: #D6CC84;
+}
+
+.darkblue {
+    color: #1A3F58;
+}
 .space-h2 {
     font-weight: 700;
 }
@@ -180,7 +200,7 @@ a:hover {
     font-weight: 700;
     font-style: normal;
     background: #F86F87;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 10px 20px;
     text-decoration: none;
     display: inline-block;
     margin: 50px auto;
