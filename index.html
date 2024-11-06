@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
    
@@ -18,76 +19,86 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-coral">
-        <a class="navbar-brand" href="">Shelby</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMain">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a href="#intro">Intro</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-      
+    <section id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Shelby</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Me
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#intro">Intro</a></li>
+                      <li><a class="dropdown-item" href="#skills">My Skills</a></li>
+                      <li><a class="dropdown-item" href="#tools">Tools</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>  
     <section id="top">
-        <div class="top-container">
+        <div class="top-container margin-auto">
             <img class = "top-cloud" src="images/cloud.png" alt="cloud-img">
-            <h1>I am<br><span class="lily-title">Shelby</span></h1>
-            <h4>a <span class="pro">pro</span>grammer.</h4>
+            <h1>I am<br><span class="td-lily-yellow">Shelby</span></h1>
+            <h4>a <span class="und">pro</span>grammer.</h4>
             <img class = "bottom-cloud" src="images/cloud.png" alt="cloud-img">
             <img class = "pfp-img" src="images/moving-cat.gif" alt="pfp-img">
         </div>
     </section>
 
     <section id="intro">
-        <div class="middle-container-intro">
-            <div class="profile">
-                <h2 class="lily-h2">Hello!</h2>
-                <p class="intro">If you're here, it means you're about to dive into a world where each of my passions is brought to life by a fun, furry friend. I've put together this site not just to share what I do but to make it a warm, playful place for you to explore my favorite skills. Each kitty here represents a side of me—from creativity and competitive spirit to my love for good food, good books, and good naps. So, let me take you on a tour of my world, cat by cat!</p><br>
-                <p class="intro">Take a scroll and let these kitties guide you through my world. I hope you enjoy getting to know me as much as I enjoy sharing these parts of my life with you. So grab a cozy seat, meet my cute little mascots, and get ready to experience a little bit of creativity, relaxation, and inspiration along the way! </p>
-                <button type="button" class="btn btn-outline-light" ><span  class="fa-brands fa-github"></span><a href="https://github.com/aryanmaeroxas" style="color:inherit"> FOLLOW ME</a></button> 
+        <div class="middle-container margin-auto">
+            <div class="margin-a20pc">
+                <h2 class="td-lily-pink und">Hello!</h2>
+                <p>If you're here, it means you're about to dive into a world where each of my passions is brought to life by a fun, furry friend. I've put together this site not just to share what I do but to make it a warm, playful place for you to explore my favorite skills. Each kitty here represents a side of me—from creativity and competitive spirit to my love for good food, good books, and good naps. So, let me take you on a tour of my world, cat by cat!</p><br>
+                <p>Take a scroll and let these kitties guide you through my world. I hope you enjoy getting to know me as much as I enjoy sharing these parts of my life with you. So grab a cozy seat, meet my cute little mascots, and get ready to experience a little bit of creativity, relaxation, and inspiration along the way! </p><br>
+                <button type="button" class="btn-def btn-outline-light" ><span  class="fa-brands fa-github"></span><a href="https://github.com/aryanmaeroxas"  target="_blank" style="color:inherit"> FOLLOW ME</a></button> 
             </div>
             <hr>
         </div>
     </section>
 
     <section id="skills">
-        <div class="middle-container-skill">
-            <div class="skills">
-                <h2 class="space-h2 darkblue">My Skills</h2>
+        <div class="middle-container margin-auto">
+            <div class="margin-a10pc">
+                <h2 class="td-space-blue-m">My Skills</h2>
                 <div class="row">
-                    <div class="skill-row col-lg-4 col-md-6">
+                    <div class="skill-row margin-20pxa col-lg-6">
                         <img class="cat-img" src="https://cdn-icons-png.freepik.com/256/763/763789.png?semt=ais_hybrid" alt="skill1-img">
-                        <h3 class="darkblue">Arts and Crafts</h3>
+                        <h3 class="td-blue">Arts and Crafts</h3>
                         <p>Meet the Artsy Cat! This little one is always up to their whiskers in paint, glue, and glitter—just like me when I'm crafting. I love turning ideas into something you can touch and feel, from handmade decor to unique DIY projects. My creativity truly shines through my love of arts and crafts!</p>
                     </div>
-                    <div class="skill-row col-lg-4 col-md-6">
+                    <div class="skill-row margin-20pxa col-lg-6">
                         <img class="cat-img" src="https://cdn-icons-png.freepik.com/256/763/763775.png?semt=ais_hybrid" alt="skill2-img">
-                        <h3 class="darkblue">Gaming</h3>
+                        <h3 class="td-blue">Gaming</h3>
                         <p>Here's the Gamer Cat, controller in paw and ready for action! Gaming is where my competitive side and quick thinking come alive. Whether it's tackling tricky levels or exploring virtual worlds, I'm always ready to dive in and level up. Gaming keeps me on my toes and fuels my passion for challenge and strategy.</p>
                     </div>
-                    <div class="skill-row col-lg-4 col-md-6">
+                    <div class="skill-row margin-20pxa col-lg-6">
                         <img class="cat-img" src="https://cdn-icons-png.freepik.com/256/763/763773.png?semt=ais_hybrid" alt="skill3-img">
-                        <h3 class="darkblue">Eating</h3>
+                        <h3 class="td-blue">Eating</h3>
                         <p>Meet the Hungry Cat, the ultimate foodie (and my spirit animal!). When I'm not creating or gaming, I'm hunting down delicious food and savoring new flavors. Trying out different cuisines, indulging in tasty treats, or discovering local spots—Eating is truly a skill I've mastered!</p>
                     </div>
-                    <div class="skill-row col-lg-4 col-md-6">
+                    <div class="skill-row margin-20pxa col-lg-6">
                         <img class="cat-img" src="https://cdn-icons-png.freepik.com/256/763/763774.png?semt=ais_hybrid" alt="skill4-img">
-                        <h3 class="darkblue">Reading</h3>
+                        <h3 class="td-blue">Reading</h3>
                         <p>Meet the Bookish Cat, cozied up with a stack of books! Reading fuels my curiosity and love for learning, whether it's diving into a new novel, exploring ideas, or picking up fresh inspiration. When I'm not crafting, gaming, or eating, you'll likely find me lost in a good book.</p>
                     </div>
-                    <div class="skill-row col-lg-4 col-md-6">
+                    <div class="skill-row margin-20pxa col-lg-6">
                         <img class="cat-img" src="https://cdn-icons-png.freepik.com/256/763/763758.png?semt=ais_hybrid" alt="skill5-img">
-                        <h3 class="darkblue">Sleeping</h3>
+                        <h3 class="td-blue">Sleeping</h3>
                         <p>Meet the Sleepy Cat, the true pro at rest and relaxation! Just like this cozy kitty, I believe in the art of a good nap to recharge. Whether it's catching a quick snooze or settling in for a full night's rest, Sleeping is my go-to skill for staying refreshed and ready to tackle new adventures!</p>
                     </div>
                 </div>
@@ -95,23 +106,193 @@
         </div>
     </section>
 
-    <section id="contact">
-        <div class="middle-container-contact">
-            <div class="contact-me">
-                <h2 class="space-h2">Get In Touch</h2>
-                <img src="https://cdn-icons-png.flaticon.com/128/3159/3159054.png" alt="box-img">
-                <h3>Have a question, idea, or just want to say hi?</h3>
-                <p class="contact-message">Let's make something awesome together, or simply share some ideas and inspiration! Drop me a message below, and let's start a conversation. </p>
-                <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-pen-nib"></i><a href="mailto:aryanmaeroxas@gmail.com" style="color:inherit"> EMAIL ME</a></button>
+    <section id="tools">
+        <div class="middle-container margin-auto">
+            <div class="margin-a10pc">
+                <h2 class="td-space-green-m">What I Work With</h2>
+                <div class="row">
+                    <div class="tool-row margin-20pxa col-lg-3 col-md-6">
+                        <i class="fa-brands fa-html5 fa-5x tool-icon"></i>
+                        <h3 class="tool-header">HTML</h3>
+                        <p>The bones of the web! Structures everything you see online.</p>
+                    </div>
+                    <div class="tool-row margin-20pxa col-lg-3 col-md-6">
+                        <i class="fa-brands fa-css3-alt fa-5x tool-icon"></i>
+                        <h3 class="tool-header">CSS</h3>
+                        <p>Web styling magic! Brings color, shape, and personality to the page.</p>
+                    </div>
+                    <div class="tool-row margin-20pxa col-lg-3 col-md-6">
+                        <i class="fa-brands fa-bootstrap fa-5x tool-icon"></i>
+                        <h3 class="tool-header">Bootstrap</h3>
+                        <p>Pre-made power! A toolkit for building responsive, sleek designs fast.</p>
+                    </div>
+                    <div class="tool-row margin-20pxa col-lg-3 col-md-6">
+                        <i class="fa-solid fa-code fa-5x tool-icon"></i>
+                        <h3 class="tool-header">VS Code</h3>
+                        <p>My playground! A powerful editor with all the bells and whistles.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="testimonial-container margin-auto">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-card">
+                            <div class="scroll-text">
+                                <h3 class="td-mali-white-m test">"They built me a site to showcase my daily naps. Finally, the world can see my true talent!"</h3>
+                                <p class= "td-mali-white-s cat-name">Whiskers McFluff</p>
+                                <img class= "cat-pfp cat-name" src="images/cat1.jpg" alt="cat-1-profile">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-card">
+                            <div class="scroll-text">
+                                <h3 class="td-mali-white-m test">"Their code skills are as sharp as my claws. Almost impressive ... for a human."</h3>
+                                <p class= "td-mali-white-s cat-name">Sir Paws-a-Lot</p>
+                                <img class= "cat-pfp cat-name" src="images/cat2.jpg" alt="cat-2-profile">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-card">
+                            <div class="scroll-text">
+                                <h3 class="td-mali-white-m test">"Added a 'Feed Me' button just for me. Genius, if you ask this hungry cat!"</h3>
+                                <p class= "td-mali-white-s cat-name">Mr. Snuggles</p>
+                                <img class= "cat-pfp cat-name" src="images/cat3.jpg" alt="cat-3-profile">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-card">
+                            <div class="scroll-text">
+                                <h3 class="td-mali-white-m test">"This website loads faster than I can knock over a glass of water. Impressive!"</h3>
+                                <p class= "td-mali-white-s cat-name">Mittens the Menace</p>
+                                <img class= "cat-pfp cat-name" src="images/cat4.jpg" alt="cat-4-profile">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-        <p class="copyright">© 2024 Shelby Fritz @ Orbo.</p>
-      </div>      
+
+    <section id="pricing" style="padding: 0 10%;">
+        <div class="middle-container">
+            <h2 class="td-space-green-m">Pick Your Purr-fect Plan</h2>
+            <p class="td-space-white-s" style="text-align: left;">Choose the plan that best fits your needs, whether you're just getting started or ready to rule the web!</p>
+            <div class="row">
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Whiskers</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$29/mo</h2>
+                            <ul>
+                                <li>1 Custom Page</li>
+                                <li>Basic Design</li>
+                                <li> Responsive Layout</li>
+                                <li>Contact Form</li>
+                                <li>Standard Support</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn-buy w-100"><a class= "buy-link" href="https://ko-fi.com/s/cd9135fde2"  target="_blank">Buy</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Paws</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$59/mo</h2>
+                            <ul>
+                                <li>Up to 5 Custom Pages</li>
+                                <li>Advanced Design</li>
+                                <li>Responsive Layout</li>
+                                <li>Contact Form</li>
+                                <li>SEO Optimization</li>
+                                <li>Priority Support</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn-buy w-100"><a class= "buy-link" href="https://ko-fi.com/s/92ad184485"  target="_blank">Buy</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-column col-lg-4 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Claws</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$99/mo</h2>
+                            <ul>
+                                <li>Unlimited Pages</li>
+                                <li>Premium Design</li>
+                                <li>Responsive Layout</li>
+                                <li>Contact Form</li>
+                                <li>SEO Optimization</li>
+                                <li>E-commerce Integration</li>
+                                <li>Dedicated Support</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn-buy w-100"><a class= "buy-link" href="https://ko-fi.com/s/457c8ff79b"  target="_blank">Buy</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class ="carousel-hr">
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="middle-container margin-auto">
+            <div class="margin-a20pc">
+                <h2 class="td-space-green-m">Get In Touch</h2>
+                <img src="https://cdn-icons-png.flaticon.com/128/3159/3159054.png" alt="box-img">
+                <h3 class="td-space-pink-m">Have a question, idea, or just want to say hi?</h3>
+                <p class="margin-auto">Let's make something awesome together, or simply share some ideas and inspiration! Drop me a message below, and let's start a conversation. </p><br>
+                <button type="button" class="btn-def btn-outline-light"><i class="fa-solid fa-pen-nib"></i><a href="mailto:aryanmaeroxas@gmail.com"  target="_blank" style="color:inherit"> EMAIL ME</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="bottom-container ">
+            <a class="footer-link" href="https://www.linkedin.com/"  target="_blank">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/"  target="_blank">Twitter</a>
+            <a class="footer-link" href="https://www.appbrewery.co/"  target="_blank">Website</a>
+            <p class="copyright">© 2024 Shelby Fritz @ Orbo.</p>
+        </div>
+    </section> 
+    
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('shelby707', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Donate',
+            'floating-chat.donateButton.background-color': '#fff',
+            'floating-chat.donateButton.text-color': '#F86F87'
+        });
+    </script>
+
 </body>
 </html>
